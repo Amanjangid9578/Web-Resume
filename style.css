@@ -1,0 +1,205 @@
+html{
+    scroll-behavior: smooth;
+}
+
+#headerdiv{
+    width: 95%;
+    height: 9vh;
+    border-radius: 50px;
+    background: #0f0f0f;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    align-content: center;
+    justify-self: center;
+    padding-top: 0;
+}
+
+#profilepicdiv{
+    width: 7vh;
+    height: 7vh;
+    background: #da3002;
+    border-radius: 70px;
+    align-content: center;
+    justify-items: center;
+    margin-top: 0;
+    justify-self: center;
+}
+
+#profilepic{
+    font-size: 45px;
+    font-family: mafinest;
+    line-height: 0px;
+    color: rgb(248, 248, 248);
+    margin: 0;
+    margin-top: 0;
+}
+
+.flexdiv{
+    display: flex;
+    justify-self: center;
+    align-content: center;
+    align-items: center;
+}
+
+#profilename{
+    color: rgb(255, 255, 255);
+    margin-top: 35px;
+    margin-left: 10px;
+    font-size: 40px;
+    line-height: 0px;
+    font-family: mafinest;
+}
+
+#hello{
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    width: 120px;
+    text-align: center;
+    height: 45px;
+    border-radius: 50px;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    align-content: center;
+    justify-self: center;
+    font-family: mafinest;
+}
+
+@font-face {
+    font-family: 'mafinest';
+    src: url('Assets/Fonts/MafinestIta0-x3rpK.otf');
+}
+
+#iamaman{
+    text-align: center;
+    font-size: 100px;
+    font-family: mafinest;
+    margin-top: 0px;
+    line-height: 100px;
+}
+
+#namespan{
+    color: #da3002 ;
+}
+
+#photoofme{
+    position: absolute;
+    margin-top: 80px;
+    justify-self: center;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#backshapediv{
+    width: 60%;
+    height: 500px;
+    background: #f53117;
+    justify-self: center;
+    margin-top: 269px;
+    /* border-radius: 500px; */
+    border-top-left-radius: 500px;
+    border-top-right-radius: 500px;
+}
+
+#servicediv{
+    width: 95%;
+    /* height: 900px; */
+    background: #0f0f0f;
+    justify-self: center;
+    border-radius: 70px;
+}
+
+#myservices{
+    margin-top: 0;
+    padding-top: 50px;
+    margin-left: 80px;
+    color: rgb(255, 253, 250);
+    font-size: 50px;
+    font-family: mafinest;
+}
+
+#services{
+    color: #fb4f38;
+}
+
+#horizontalline{
+    width: 95%;
+    margin-bottom: 40px;
+}
+
+#cardscontainer{
+    /* height: 640px; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    gap: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    /* padding-bottom: 50px; */
+}
+
+.card {
+ width: 345px;
+ height: 590px;
+ /* margin-left: 40px; */
+ margin-right: 0px;
+ margin-bottom: 50px;
+ border-radius: 50px;
+ background: #0e0e0e;
+ box-shadow: 20px 10px 80px #000000,
+               -20px -20px 60px #000000;
+ display: grid;
+ justify-content: center;
+}
+
+@media (min-width: 1000px){
+    #cardscontainer{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+#figmalogo{
+    width: 100px;
+    height: 150px;
+    margin-top: 100px;
+    justify-self: center;
+}
+
+#figmaf{
+    color: #F24E1E;
+}
+#figmai{
+    color: #FF7262;
+}
+#figmag{
+    color: #A259FF;
+}
+#figmam{
+    color: #1ABCFE;
+}
+#figmaa{
+    color: #0ACF83;
+}
+
+#githublogo{
+    width: 150px;
+    height: 150px;
+    margin-top: 100px;
+    justify-self: center;
+}
+
+#uxlogo{
+    width: 200px;
+    height: 200px;
+    margin-top: 80px;
+    justify-self: center;
+}
+
+.skill{
+    color: aliceblue;
+    /* position: absolute; */
+    font-size: 40px;
+    font-family: mafinest;
+}
